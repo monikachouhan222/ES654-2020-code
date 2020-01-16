@@ -31,7 +31,8 @@ def information_gain(Y, attr):
                         i++ 
                 totalentropy+=Len(Yv)/Len(Y)*entropy(Yv)
     gain=entropy(Y)-totalentropy
-    else
+    else 
+        
          
          
     Function to calculate the information gain
