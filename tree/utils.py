@@ -20,6 +20,19 @@ def gini_index(Y):
 
 def information_gain(Y, attr):
     
+    
+    if attr.dtype='catgory'
+            values=np.unique(attr)
+            for v in values
+                i=0
+                for index in attr
+                   if atrr[index]=values
+                       Yv[i]=Y[index]
+                        i++ 
+                totalentropy+=Len(Yv)/Len(Y)*entropy(Yv)
+    gain=entropy(Y)-totalentropy
+    else
+         
          
     Function to calculate the information gain
     
