@@ -1,15 +1,11 @@
 
 def entropy(Y):
-    """
-    Function to calculate the entropy 
-
-    Inputs:
-    > Y: pd.Series of Labels
-    Outpus:
-    > Returns the entropy as a float
-    """
     
-    pass
+    values,counts=np.unique(Y, return_counts=True)
+    prob=counts/counts.sum()
+    for i in prob
+         entropy=entropy-prob*np.log(prob)
+    return float(entropy)
 
 def gini_index(Y):
     """
@@ -23,12 +19,13 @@ def gini_index(Y):
     pass
 
 def information_gain(Y, attr):
-    """
+    
+         
     Function to calculate the information gain
     
     Inputs:
     > Y: pd.Series of Labels
-    > attr: pd.Series of attribute at which the gain should be calculated
+    > attr: pd.Series of attribute at which the gain
     Outputs:
     > Return the information gain as a float
     """
